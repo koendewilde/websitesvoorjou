@@ -1,0 +1,138 @@
+/* blog intro */
+
+.blog-posts-intro {}
+
+.blog-posts-intro h3 {
+    display: block;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    position: relative;
+    padding-top: 13px;
+}
+
+
+/* intro filter */
+
+.blog-posts-intro>div {
+    display: block;
+}
+
+#filters-wrapper>div {
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 25px;
+}
+
+#filters-wrapper>div+div {
+    margin-right: 0;
+}
+
+@media only screen and (min-width: 640px) {
+    .blog-posts-intro h3 {
+        float: left;
+    }
+    .blog-posts-intro>div {
+        float: right;
+    }
+}
+
+
+/* bg grey */
+
+#page-content.bg-grey {
+    background: $color-grey-bg;
+    padding-bottom: 20px;
+}
+
+// first post double width
+.post-tile.post-tile1.post-tile-post .post-tile-content p .excerpt-long {
+    display: none;
+}
+
+@media only screen and (min-width: 960px) {
+    // first post double width
+    .post-tile.post-tile1.post-tile-post {
+        width: 63.33%;
+        flex-direction: row;
+    }
+    .post-tile.post-tile1.post-tile-post .post-tile-bg {
+        width: 50%;
+        padding-bottom: 0;
+    }
+    .post-tile.post-tile1.post-tile-post .post-tile-content {
+        width: 50%;
+        border: 1px solid $color-border-grey;
+        border-left: none;
+        /* center content inside */
+        justify-content: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .post-tile.post-tile1.post-tile-post .post-tile-content p .excerpt-regular {
+        display: none;
+    }
+    .post-tile.post-tile1.post-tile-post .post-tile-content p .excerpt-long {
+        display: inline;
+    }
+}
+
+
+/* post tile cta yellow */
+
+.post-tile.post-tile-cta {
+    border: 1px solid $color-yellow-border;
+    background-color: $color-yellow-bg;
+    background-image: url(img/icons/icon-yellow.svg);
+    background-size: 47px 47px;
+    background-position: 8% 5%;
+    background-repeat: no-repeat;
+}
+
+.post-tile.post-tile-cta .post-tile-content {
+    border: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-tile.post-tile-cta .post-tile-content p {
+    color: $color-yellow-txt;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    display: block;
+    max-width: 220px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.post-tile.post-tile-cta .post-tile-bg {
+    position: relative;
+}
+
+.post-tile.post-tile-cta .post-tile-bg p {
+    color: $color-yellow-txt;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 220px;
+    position: absolute;
+    top: 50%;
+    left: 26px;
+    right: 26px;
+}
+
+.post-tile.post-tile-cta .post-tile-content a {
+    width: 100%;
+    max-width: 180px;
+    margin: auto;
+}
+
+.post-tile.post-tile-cta .post-tile-bg {
+    border-bottom: 1px solid $color-yellow-border;
+    background: none;
+}

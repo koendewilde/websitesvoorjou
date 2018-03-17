@@ -1,0 +1,79 @@
+// Variables
+// main colors
+$color-black: rgb(72, 72, 72);
+$color-grey: rgb(167, 178, 178);
+
+/* extra colors */
+
+// grey placeholder search home
+$color-grey-light: rgb(188, 198, 198);
+// white
+$color-white: rgb(249, 255, 249);
+// green
+$color-green: rgb(0, 101, 53);
+$color-green-light: rgb(99, 196, 103);
+$color-green-lightest: rgb(225, 240, 233);
+// green bg
+$color-green-bg: $color-green;
+$color-green-bg-lightest: rgb(153, 240, 178);
+$color-green-bg-light: rgb(234, 255, 243);
+$color-green-bg-dark: rgb(201, 245, 221);
+$color-green-bg-yellow: rgb(246, 255, 244);
+// yellow
+$color-yellow-border: rgb(244, 235, 202);
+$color-yellow-bg: rgb(255, 254, 246);
+$color-yellow-txt: rgb(200, 172, 143);
+$color-yellow-txt-dark: rgb(185, 153, 120);
+
+/* grey bg */
+
+$color-grey-bg: rgb(245, 245, 245);
+
+/* border */
+
+$color-border-green: rgb(199, 242, 212);
+$color-border-green-dark: rgb(69, 184, 110);
+$color-border-grey: rgb(220, 224, 224);
+$color-border-opacity: rgba(50, 74, 74, 0.3);
+
+/* border inline boxes */
+
+$color-box-green: rgb(10, 198, 165);
+$color-box-yellow: rgba(167, 178, 178, 0.3);
+
+/* colored boxes */
+
+$color-bg-box-yellow: rgb(252, 252, 193);
+$color-border-box-yellow: rgb(10, 198, 165);
+
+/* box-shadow */
+
+$box-shadow: 0 3px 12px rgba(88, 88, 88, 0.2);
+// footer
+$color-grey-link: rgba(42, 42, 42, 0.65);
+//
+// oud
+//
+$color-green-dark: rgb(70, 94, 86);
+$color-red: rgb(178, 18, 18);
+$color-brown: rgb(81, 54, 40);
+// logo
+$color-logo-brown: rgb(81, 54, 40);
+$color-logo-brown-light: rgb(133, 117, 80);
+// border-bottom scrolled header 
+//$color-bg-grey: rgb(241, 239, 237);
+// bg grey light
+$color-bg-grey-light: rgb(248, 247, 246);
+$color-bg-grey-light-o: rgba(248, 247, 246, 0.6);
+// bg grey dark
+$color-bg-grey-dark: rgb(219, 215, 210);
+// bg post tiles
+$color-bg-green-tile: rgba(70, 94, 86, 0.7);
+$color-bg-grey-tile: rgba(76, 76, 78, 0.7);
+$color-bg-white-tile: rgba(183, 176, 164, 0.7);
+// bg tiles hover
+$color-bg-green-tile-hover: rgba(70, 94, 86, 0.9);
+$color-bg-grey-tile-hover: rgba(76, 76, 78, 0.9);
+$color-bg-white-tile-hover: rgba(183, 176, 164, 0.9);
+// font brown light
+$color-brown-titles-light: rgb(133, 114, 105);

@@ -1,0 +1,174 @@
+// sidebar layout
+.sidebar-right .wrapper-content {
+    position: relative;
+}
+
+.sidebar-right .wrapper-sidebar {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 1024px) {
+    // sidebar layout
+    .sidebar-right .wrapper-content {
+        float: left;
+        width: 66%;
+        padding-right: 50px;
+    }
+    .sidebar-right .wrapper-sidebar {
+        float: right;
+        width: 34%;
+    }
+    .sidebar-right .wrapper-sidebar #sidebar-wrapper-content {
+        border-left: 4px solid #fff;
+        margin-top: 43px;
+        padding-left: 20px;
+        margin-right: -15%;
+    }
+    .sidebar-right .wrapper-sidebar {
+        padding-top: 131px;
+    }
+}
+
+// blocks
+.sidebar-block {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.sidebar-block h4.widget-title {
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 35px;
+}
+
+// recent posts
+#sidebar-recent-posts-wrapper {}
+
+#sidebar-recent-posts-wrapper a {
+    display: flex;
+    position: relative;
+    padding: 10px 10px 10px 120px;
+    min-height: 100px;
+    align-items: center;
+    font-weight: 300;
+    font-size: 14px;
+    border: 1px solid rgb(220, 224, 224);
+    margin-bottom: -1px;
+}
+
+.has-mouse #sidebar-recent-posts-wrapper a {
+    transition: all .3s;
+}
+
+.has-mouse #sidebar-recent-posts-wrapper a:hover {
+    border: 1px solid $color-green;
+    z-index: 1;
+    color: $color-black;
+}
+
+#sidebar-recent-posts-wrapper a span {
+    background-color: $color-green-bg-light;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+}
+
+// random sidebar action
+.sidebar-random-action>a {
+    display: block;
+    position: relative;
+    text-align: center;
+    background-color: $color-bg-box-yellow;
+    padding: 80px 40px;
+}
+
+.sidebar-random-action>a:after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 15px;
+    right: 15px;
+    border: 1px solid $color-border-box-yellow;
+}
+
+.has-mouse .sidebar-random-action>a {
+    color: inherit;
+    transition: transform .3s ease-out, box-shadow .3s ease-out;
+}
+
+.has-mouse .sidebar-random-action>a:hover {
+    transform: translateY(-4px);
+    box-shadow: $box-shadow;
+}
+
+
+/* colors (yellow = standard) */
+
+.sidebar-random-action.box-yellow {
+    background-color: $color-bg-box-yellow;
+}
+
+.sidebar-random-action>a:after {
+    border: 1px solid $color-border-box-yellow;
+}
+
+.sidebar-random-action h4 {
+    margin-bottom: 40px;
+}
+
+.sidebar-random-action h4 span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.sidebar-random-action p {
+    margin: 0;
+    font-size: 14px;
+}
+
+// yellow action block
+#sidebar-yellow-action {
+    border: 1px solid $color-yellow-border;
+    background-color: $color-yellow-bg;
+    background-image: url(img/icons/icon-yellow.svg);
+    background-size: 47px 47px;
+    background-position: 20px 20px;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+}
+
+#sidebar-yellow-action>div {
+    border: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 5%;
+}
+
+#sidebar-yellow-action>div p {
+    color: $color-yellow-txt;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    display: block;
+    max-width: 220px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+#sidebar-yellow-action>div a {
+    width: 100%;
+    max-width: 180px;
+    margin: auto;
+}

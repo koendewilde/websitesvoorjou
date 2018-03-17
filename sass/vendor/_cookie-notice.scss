@@ -1,0 +1,41 @@
+/* cookie consent plugin */
+
+#cookie-notice {
+    font-size: 14px;
+    padding: 0 5% 9px;
+    border-top: 1px solid $color-yellow-border;
+}
+
+#cookie-notice .cookie-notice-container {
+    max-width: 780px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#cn-notice-text a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+a#cn-accept-cookie {
+    position: relative;
+    top: 5px;
+    right: -5%;
+    margin: 0 5%;
+    padding: 4px 12px;
+    color: inherit;
+    font-weight: 400;
+    font-size: 27px;
+    text-decoration: none;
+    transform: rotate(45deg);
+}
+
+.has-mouse #cn-notice-text a,
+.has-mouse a#cn-accept-cookie {
+    transition: all .3s;
+}
+
+.has-mouse #cn-notice-text a:hover,
+.has-mouse a#cn-accept-cookie:hover {
+    color: rgb(150, 119, 87);
+}

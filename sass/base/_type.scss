@@ -1,0 +1,97 @@
+// Type
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: $color-black;
+    line-height: 1.6;
+}
+
+
+/* ChunkFive */
+
+.ff-chunk {
+    font-family: 'ChunkFive', 'AmericanTypewriter-Bold', sans-serif;
+}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0 0 20px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h1.page-title,
+h2.page-title {
+    font-size: 34px;
+    font-weight: 500;
+}
+
+#main-logo {
+    font-size: 34px;
+    font-weight: normal;
+    font-family: 'ChunkFive', 'AmericanTypewriter-Bold', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+// Titles
+h2.title--top {
+    font-size: 42px;
+    line-height: 1.4;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+h1.title--main {
+    font-size: 42px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: $color-black;
+    margin-bottom: 32px;
+}
+
+h1.title--v1,
+h2.title--v1 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+h1.title--v2,
+h2.title--v2 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}

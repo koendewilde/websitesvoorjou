@@ -1,0 +1,60 @@
+#row-home-contact {}
+
+.row-contact-cta {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contact-cta-wrapper {
+    padding: 0 32px;
+}
+
+.contact-cta-wrapper>div {
+    border-radius: 4px;
+    padding: 40px 32px;
+}
+
+.contact-cta-wrapper .contact-cta-left {
+    background: $color-green-light;
+    color: $color-green;
+}
+
+.contact-cta-wrapper .contact-cta-right {
+    background: $color-green-lightest;
+    margin-top: 16px;
+}
+
+.contact-cta-wrapper .contact-cta-left ul.contact-cta-left-list {
+    columns: 120px 3;
+}
+
+.contact-cta-wrapper .contact-cta-left ul.contact-cta-left-list li {
+    position: relative;
+    padding: 0 20px;
+}
+
+.contact-cta-wrapper .contact-cta-left ul.contact-cta-left-list li span {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 10px;
+    width: 4px;
+    height: 4px;
+    background: $color-green;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 760px) {
+    .contact-cta-wrapper {
+        display: flex;
+    }
+    .contact-cta-wrapper .contact-cta-left {
+        margin-right: 16px;
+        width: calc(60% - 16px);
+    }
+    .contact-cta-wrapper .contact-cta-right {
+        margin-top: 0;
+        margin-left: 16px;
+        width: calc(40% - 16px);
+    }
+}

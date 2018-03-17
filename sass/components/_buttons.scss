@@ -1,0 +1,25 @@
+.button--solid {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    color: $color-black;
+    background-color: #fff;
+    border: 1px solid $color-grey;
+    border-radius: 4px;
+    padding: 8px 24px;
+    text-align: center;
+    min-width: 120px;
+    text-decoration: none!important;
+}
+
+.has-mouse .button--solid {
+    transition: all .3s;
+}
+
+.button--solid:focus,
+.has-mouse .button--solid:hover {
+    background-color: transparent;
+    color: $color-grey;
+    border: 1px solid $color-grey;
+    text-decoration: none;
+}
