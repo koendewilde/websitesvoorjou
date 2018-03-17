@@ -2,7 +2,7 @@
 
 Custom WordPress Template (Multisite) 
 
-Live version: https://wwww.websitesvoorjou.nl
+Live version: https://www.websitesvoorjou.nl
 
 ### PLUGINS MU
 - ACF (pro)
