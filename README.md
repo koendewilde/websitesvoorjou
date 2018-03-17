@@ -7,7 +7,7 @@ Live version: https://wwww.websitesvoorjou.nl
 ### PLUGINS MU
 - ACF (pro)
 
-## PLUGINS
+### PLUGINS
 - QC Simple Link redirect (pro)
 - Yoast
 - Gravity Forms (pro)
